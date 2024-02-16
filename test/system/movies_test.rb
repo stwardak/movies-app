@@ -16,7 +16,6 @@ class MoviesTest < ApplicationSystemTestCase
 
     fill_in "Director", with: @movie.director
     fill_in "Genre", with: @movie.genre
-    fill_in "Runtime", with: @movie.runtime
     fill_in "Title", with: @movie.title
     fill_in "Year", with: @movie.year
     click_on "Create Movie"
@@ -31,7 +30,6 @@ class MoviesTest < ApplicationSystemTestCase
 
     fill_in "Director", with: @movie.director
     fill_in "Genre", with: @movie.genre
-    fill_in "Runtime", with: @movie.runtime
     fill_in "Title", with: @movie.title
     fill_in "Year", with: @movie.year
     click_on "Update Movie"

@@ -3,13 +3,11 @@
 one:
   title: MyString
   year: 1
-  runtime: MyString
   genre: MyString
   director: MyString
 
 two:
   title: MyString
   year: 1
-  runtime: MyString
   genre: MyString
   director: MyString
